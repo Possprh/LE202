@@ -17,7 +17,7 @@
 ## Quoting Code
 ... จัดรูปโค้ดให้อยู๋บล็อกเดียวกัน
 ## Image
-![Text](link) ใส่รูป
+![Text] (link) ใส่รูป
 ## Task list
 [],[x]สร้างลิสรายการ
 ## Emoji
