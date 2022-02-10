@@ -9,4 +9,16 @@
 ## Heading
 #หัวข้อหลัก ##หัวข้อรอง ###หัวข้อย่อย
 ## Bold
-** Text **
+** Text ** ตัวหนา
+## strikethrough
+~~ Text ~~ ขีดกลางตัวหนังสือ
+## Bold and italic
+*** Text *** หนาและเอียง
+## Quoting Code
+... จัดรูปโค้ดให้อยู๋บล็อกเดียวกัน
+## Image
+![Text](link) ใส่รูป
+## Task list
+[],[x]สร้างลิสรายการ
+## Emoji
+::Text::
