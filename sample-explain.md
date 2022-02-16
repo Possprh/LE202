@@ -1,6 +1,7 @@
 # อธิบายการเขียนโปรแกรมการทดลองที่1-6
-## การทดลองที่ 1 เรื่อง การเขียนโปรแกรมเพื่อรันบนไทโครคอนโทรลเลอร์
-ตัวอย่างการรัน
+## การทดลองที่ 1 เรื่อง การเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรลเลอร์
+ตัวอย่างการRUN Program 
+
 #include <Arduino.h>
 
 int cnt = 0;
@@ -10,7 +11,8 @@ void setup() { Serial.begin(115200); }
 void loop() { cnt++; Serial.printf("PATTANI :%d\n",cnt); int s = cnt % 5 + 1; int d = s * 1000; delay(d); 
 
 ## การทดลองที่ 2 เรื่อง การเขียนโปรแกรมค้นหาไวไฟ
-ตัวอย่างการรัน
+ตัวอย่างการRUN Program
+
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
@@ -48,7 +50,8 @@ void loop()
 }
 
 ## การทดลองที่ 3 เรื่อง การเขียนโปรแกรมเอ้าท์พุทสัญญาณดิจิทัล
-ตัวอย่างการรัน
+ตัวอย่างการRUN Program
+
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
@@ -74,7 +77,8 @@ void loop()
 	delay(500);
 }
 ## การทดลองที่ 4 เรื่อง การเขียนโปรแกรมอินพุทสัญญาณดิจิทัล
-ตัวอย่างการรัน
+ตัวอย่างการRUN Program
+
 #include <ESP8266WiFi.h>
 
 int cnt = 0;
@@ -99,7 +103,8 @@ void loop()
 	delay(100);
 }
 ## การทดลองที่ 5 เรื่อง การเขียนโปรแกรมเชื่อมต่อไวไฟและเว็บเซอร์เวอร์
-ตัวอย่างการรัน
+ตัวอย่างการRUN Program
+
 #include <ESP8266WiFi.h>
 //#include <WiFiClient.h>
 #include <ESP8266WebServer.h>
@@ -157,7 +162,8 @@ void loop(void){
   server.handleClient();
 }
 ## การทดลองที่ 6 เรื่อง การเขียนโปรแกรมสร้างไวไฟแอคเซสพอยต์
-ตัวอย่างการรัน
+ตัวอย่างการRUN Program
+
 #include <ESP8266WiFi.h>
 //#include <WiFiClient.h>
 #include <ESP8266WebServer.h>
